@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedAI — Emergency First Response Assistant</title>
+  <meta name="description" content="Offline emergency first response chatbot. Guides you through fractures, choking, and unconscious person protocols.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="medai.css">
+</head>
+<body>
+
+<div id="app">
+  <header>
+    <div class="header-icon">⚕</div>
+    <div class="header-info">
+      <h1>MedAI</h1>
+      <p>Emergency First Response Assistant</p>
+    </div>
+    <div class="status-dot"></div>
+  </header>
+
+  <div id="chat"></div>
+
+  <div id="actions">
+    <!-- dynamic content injected by JS -->
+  </div>
+</div>
+
+<script src="emergency_protocols.js"></script>
+<script src="medai.js"></script>
+</body>
+</html>
